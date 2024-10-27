@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            background-color: #6495ED;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input[type="text"],
+        input[type="email"]
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #cca3a3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="skills.html">Skills</a> | 
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <h1>Contact</h1>
+    <div class="container">
+        <div class="row">
+            <h2>Address</h2>
+            <p>
+                Khloe Gage<br>
+                The 505 on Walnut<br>
+                505 Walnut Ave, Syracuse, NY 13210
+            </p>
+        </div>
+        <div class="column">
+            <h2>Contact Links</h2>
+            <p>
+                <a href="mailto:klgage@syr.edu">Khloe Gage Email</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/khloegage/">
+                    <img src="../images/logo-sized.png" alt="My LinkedIn Profile">
+                    My LinkedIn Profile
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/xanwgybb" method="POST">
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <input type="checkbox" id="vehicle" name="vehicle" value="true">
+                <label for="vehicle"> True?</label>
+
+                <input type="submit" value="Send Form">
+            </form>
+        </div>
+        <div class="column">
+            <h2>Location Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.7543205391657!2d-76.13440382426077!3d43.04660039145291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a762f3834f%3A0x5e6a3dfb6b9f8ae0!2sThe%20505%20on%20Walnut!5e0!3m2!1sen!2sus!4v1726324185906!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>

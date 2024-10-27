@@ -7,3 +7,5 @@ nav {background-color: #FF1493;
     padding: 10px;}
 nav:hover {background-color: #FFFFE0;}
 nav a {color: #68c6e5;}
+.skillstable table {margin:0 auto;}
+.skillsimage {text-align: center;}
