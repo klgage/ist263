@@ -10,8 +10,10 @@ h2 {font: size 0.75em;}
     nav span {display:none;} }
 .skip {
     position: absolute;
+    left: -10000px;
     top: auto;
     background: yellow;
+    color: black;
     width: 1px;
     height: 1px;
     overflow: hidden;
