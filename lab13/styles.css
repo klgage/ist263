@@ -10,7 +10,7 @@ h2 {font: size 0.75em;}
     nav span {display:none;} }
 .skip {
     position: static;
-    background: yellow;
+    background: rgb(255, 180, 243);
     padding: 8px;
     border: 1px solid black;
     }
