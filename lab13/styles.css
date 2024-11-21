@@ -1,8 +1,11 @@
 body {
     font-family: Georgia, serif;
 }
-h1,h2 {
+h1 {
     color: rgb(28, 111, 255)
+}
+h2 {
+    color: rgb(31, 31, 31)
 }
 .evenrow {
     background-color:lavenderblush;
