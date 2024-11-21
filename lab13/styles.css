@@ -1,13 +1,27 @@
-body {font-family: Georgia, serif;}
-h1,h2 {color: rgb(255, 109, 157)}
-.evenrow {background-color:lavenderblush;}
-h1 {font-size:2em;}
-h2 {font: size 0.75em;}
-.altered-image {max-width: 100%;}
+body {
+    font-family: Georgia, serif;
+}
+h1,h2 {
+    color: rgb(103, 159, 255)
+}
+.evenrow {
+    background-color:lavenderblush;
+}
+h1 {
+    font-size:2em;
+}
+h2 {
+    font-size: 0.75em;
+}
+.altered-image {
+    max-width: 100%;
+}
 @media (max-width: 768px) {
-    nav a {display: block; width: 100%;}
-    
-    nav span {display:none;} }
+    nav a {display: block; width: 100%;
+    }
+    nav span {display:none;
+    } 
+}
 .skip {
     position: static;
     background: rgb(255, 180, 243);
