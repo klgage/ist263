@@ -9,14 +9,10 @@ h2 {font: size 0.75em;}
     
     nav span {display:none;} }
 .skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
+    position: static;
     background: yellow;
-    color: black;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+    padding: 8px;
+    border: 1px solid black;
     }
 .skip:focus {
     position: static;
