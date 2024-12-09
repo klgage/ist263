@@ -95,7 +95,7 @@ img {
     display: block;
 }
 .navbar a:hover {
-    background-color: #588ffd;
+    background-color: #334eff;
 }
 .dropdown {
     position: relative;
@@ -113,7 +113,7 @@ img {
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #f829ff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
