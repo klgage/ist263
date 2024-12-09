@@ -108,12 +108,12 @@ img {
     z-index: 1;
 }
 .dropdown-content a {
-    color: black;
+    color: #ff9ae2;
     padding: 12px 16px;
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #f829ff;
+    background-color: #ffc2ee;
 }
 .dropdown:hover .dropdown-content {
     display: block;
