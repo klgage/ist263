@@ -101,16 +101,35 @@ img {
     position: relative;
 }
 .dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
+    background-color: #f1f1f1;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, 0);
 }
 .dropdown-content a {
     color: #ff9ae2;
-    padding: 12px 16px;
-    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px 0;
 }
 .dropdown-content a:hover {
     background-color: #ffc2ee;
